@@ -7,7 +7,7 @@ import re
 from google.cloud import storage
 import os
 storage_client = storage.Client()
-bucket_destino = storage_client.get_bucket("catalobyte-input")
+bucket_destino = storage_client.get_bucket("verbana-youtube-input")
 
 app = Flask(__name__)
 

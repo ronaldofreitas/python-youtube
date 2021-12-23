@@ -9,7 +9,7 @@ docker build -t ronaldofreitas/youtube .
 
 pega o ID da imagem... docker images
 
-docker tag 360b95e31aa2 gcr.io/catalobyte-311413/catalobyte/youtube && docker push gcr.io/catalobyte-311413/catalobyte/youtube
+docker tag 8a44174756a4 gcr.io/catalobyte-311413/catalobyte/youtube && docker push gcr.io/catalobyte-311413/catalobyte/youtube
 
 
 
