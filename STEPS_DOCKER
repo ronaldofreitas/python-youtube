@@ -1,0 +1,16 @@
+
+## https://cloud.google.com/run/docs/quickstarts/events
+
+
+$ dentro dessa pasta
+
+docker build -t ronaldofreitas/youtube .
+( ou docker build --no-cache -t ronaldofreitas/youtube . )
+
+pega o ID da imagem... docker images
+
+docker tag 360b95e31aa2 gcr.io/catalobyte-311413/catalobyte/youtube && docker push gcr.io/catalobyte-311413/catalobyte/youtube
+
+
+
+https://down-youtube-iafcvqe73a-ue.a.run.app
